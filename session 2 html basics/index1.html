@@ -1,0 +1,93 @@
+<!-- apas ! + ENTER pentru un template similar -->
+ <!-- In Mdn web docs putem sa ne uitam pentru a afla despre fiecare element, ex <p> -->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Session 2 - HTML basics</title>
+    </head>
+    <body>
+        <div>
+            <h2>Hello from session 2</h2>
+           
+            <p>This is another session</p>
+           
+            <p>Another paragraph
+                <span>Stilizare pe o parte din paragraf</span>
+            </p>
+        </div>
+        
+        <div>
+            <a href="http://wwww.google.com/"> Go to google</a>
+            <br />
+            <br />
+            <br />
+            <a href="./index2.html">Go to my second page</a>
+        </div>
+        
+        <div>
+            <br />
+            <img src="./cat.jpg" width="700" height="380"/>
+            <img src="./cat.jpg" width="700" height="380"/>
+
+        </div>
+        <!-- div creeaza niste sectiuni in pagina -->
+        <p>Shopping cart:</p>
+        <!-- ul = unordered list -->
+        <ul type="square">
+            <li>Milk</li>
+            <li>Bread</li>
+            <li>Juice</li>
+        </ul>
+
+        <p>Shopping cart 2:</p>
+        <!-- ol = ordered list -->
+        <ol type="i">
+            <li>Milk</li>
+            <li>Bread</li>
+            <li>Juice</li>
+        </ol>
+
+        <form>
+            <label for="firstName">First name: </label>
+            <input id="firstName"/>
+
+            <br />
+            <br />
+
+            <label for="password">Password: </label>
+            <input type="password" /> 
+           
+            <br />
+            <br />
+
+            <label for="color">Choose a color: </label> 
+            <select id="color">
+                <option>red</option>
+                <option>green</option>
+                <option>purple</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label for="termsAndConditions">Agree with terms and conditions </label>
+            <input id="termsAndConditions" type="checkbox" />
+
+            <br />
+            <br />
+
+            <label for="gender">Choose a gender: </label>
+            <!-- span - elemente inline -->
+            <input name="gender" type="radio" /> <span>Male</span>
+            <input name="gender" type="radio" /> <span>Female</span>
+
+            <br />
+            <br />
+
+            <button type="button"> Register </button>
+
+        </form>
+
+    </body>
+</html>

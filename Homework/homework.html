@@ -1,0 +1,68 @@
+    <!DOCTYPE html>
+
+    <html>
+        <head>
+            <title>Session 2 - Homework</title>
+        </head>
+        <body>
+            <div>
+                <h2>Hello catlovers!</h2>
+               
+                <p>This is a form where you can tell us more about your cat and subscribe to our newsletter to learn even more.</p>    
+
+            <!-- homework -->
+            <!-- an input for inputting an email address-->
+            <form>
+                <label for="email">Email: </label>
+                <input id="email"/>
+    
+                <br />
+                <br />
+            <!-- a dropdown with 3 topics related to your webpage, where the second one is preselected - the selected one is the topic for which we are sending the message -->
+                <label for="catColor">Choose your cat color: </label> 
+                <select id="catColor" value="2">
+                    <option>black</option>
+                    <option selected> orange</option>
+                    <option>white</option>
+                </select>
+    
+                <br />
+                <br />
+
+            <!-- a text area for inputing the message -->
+
+                <label for="message">Leave a message: </label>
+
+                <textarea id="message" name="message" rows="5" cols="33">
+                My orange cat definitely has more than one braincell... 
+                </textarea>
+
+                <br />
+                <br />
+
+            <!-- two radio buttons for controlling a Subscribe to newsletter option(Yes/No) -->
+
+                <label for="newsletterSubscribe">Subscribe to newsletter: </label>
+                <input name="newsletterSubscribe" type="radio" /> <span>Yes</span>
+                <input name="newsletterSubscribe" type="radio" /> <span>No</span>
+
+                <br />
+                <br />
+
+            <!-- a checkbox for I have read and agreed to the Privacy Policy -->
+                <label for="privacyPolicy">I have read and agreed to the Privacy Policy </label>
+                <input id="privacyPolicy" type="checkbox" />
+    
+                <br />
+                <br />
+    
+            
+            <!-- a send button -->
+    
+                <button type="button"> Send </button>
+    
+            </form>
+    
+        </body>
+    </html>
+    
